@@ -1,0 +1,161 @@
+[
+  {
+   "pins": [
+      [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "PPA_adder",
+      "PPA_adder"
+   ],
+   "devices": [
+       [
+         ["BUFX2", 7],
+         ["NAND2X1", 16],
+         ["NOR2X1", 24],
+         ["INVX1", 14],
+         ["AND2X2", 14 ]
+       ], [
+         ["BUFX2", 7 ],
+         ["NAND2X1", 16 ],
+         ["NOR2X1", 24 ],
+         ["INVX1", 14 ],
+         ["AND2X2", 14 ]
+       ]
+   ],
+   "nets": [
+    90,
+    90
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "c_in",
+        "c_out",
+        "result[1]",
+        "result[2]",
+        "result[4]",
+        "result[0]",
+        "result[3]",
+        "result[5]",
+        "sum_comp_2[2]",
+        "sum_comp_2[4]",
+        "sum_comp_1[2]",
+        "sum_comp_1[4]",
+        "sum_comp_2[3]",
+        "sum_comp_2[5]",
+        "sum_comp_2[0]",
+        "sum_comp_2[1]",
+        "sum_comp_1[3]",
+        "sum_comp_1[5]",
+        "sum_comp_1[0]",
+        "sum_comp_1[1]",
+        "vdd",
+        "gnd"
+      ], [
+        "c_in",
+        "c_out",
+        "result[1]",
+        "result[2]",
+        "result[4]",
+        "result[0]",
+        "result[3]",
+        "result[5]",
+        "sum_comp_2[2]",
+        "sum_comp_2[4]",
+        "sum_comp_1[2]",
+        "sum_comp_1[4]",
+        "sum_comp_2[3]",
+        "sum_comp_2[5]",
+        "sum_comp_2[0]",
+        "sum_comp_2[1]",
+        "sum_comp_1[3]",
+        "sum_comp_1[5]",
+        "sum_comp_1[0]",
+        "sum_comp_1[1]",
+        "vdd",
+        "gnd"
+      ]
+   ]
+  }
+]

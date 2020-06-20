@@ -1,0 +1,370 @@
+Qflow migration logfile created on pon, 15 cze 2020, 18:55:50 CEST
+magic -dnull -noconsole  migrate_PPA_adder.tcl
+
+Magic 8.2 revision 172 - Compiled on czw, 11 cze 2020, 18:41:08 CEST.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 132: section contact:
+	Contact types polycontact and pm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 133: section contact:
+	Contact types pdcontact and pdm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 134: section contact:
+	Contact types psubstratepcontact and psm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 135: section contact:
+	Contact types ndcontact and ndm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 136: section contact:
+	Contact types nsubstratencontact and nsm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 137: section contact:
+	Contact types nwsc and nwsm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 138: section contact:
+	Contact types m2contact and m123contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 139: section contact:
+	Contact types m3contact and m234contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 413: section cifoutput:
+	Unrecognized layer (type) "pdm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 414: section cifoutput:
+	Unrecognized layer (type) "nsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 455: section cifoutput:
+	Unrecognized layer (type) "ndm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 456: section cifoutput:
+	Unrecognized layer (type) "psm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 478: section cifoutput:
+	Unrecognized layer (type) "ndm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 478: section cifoutput:
+	Unrecognized layer (type) "psm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 483: section cifoutput:
+	Unrecognized layer (type) "pdm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 483: section cifoutput:
+	Unrecognized layer (type) "nsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 488: section cifoutput:
+	Unrecognized layer (type) "pdm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 488: section cifoutput:
+	Unrecognized layer (type) "psm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 488: section cifoutput:
+	Unrecognized layer (type) "ndm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 488: section cifoutput:
+	Unrecognized layer (type) "nsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 500: section cifoutput:
+	Unrecognized layer (type) "ndm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 500: section cifoutput:
+	Unrecognized layer (type) "nsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 500: section cifoutput:
+	Unrecognized layer (type) "nwsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 500: section cifoutput:
+	Unrecognized layer (type) "pdm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 500: section cifoutput:
+	Unrecognized layer (type) "psm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 518: section cifoutput:
+	Unrecognized layer (type) "ndm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 518: section cifoutput:
+	Unrecognized layer (type) "nsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 518: section cifoutput:
+	Unrecognized layer (type) "nwsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 518: section cifoutput:
+	Unrecognized layer (type) "pdm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 518: section cifoutput:
+	Unrecognized layer (type) "psm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 534: section cifoutput:
+	Unrecognized layer (type) "pm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 546: section cifoutput:
+	Unrecognized layer (type) "m123c/m1".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 554: section cifoutput:
+	Unrecognized layer (type) "m234c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 604: section cifoutput:
+	Unrecognized layer (type) "m123c/m1".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "pdm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "ndm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "psm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "nsm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "pm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "nwsm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "m234c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "m234c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 679: section cifoutput:
+	Unrecognized layer (type) "m123c/m3".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 687: section cifoutput:
+	Unrecognized layer (type) "m234c/m4".
+Input style lambda=0.20(p): scaleFactor=20, multiplier=1
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 9261: section drc:
+	OK types "space" in more than one plane.
+	Assuming same plane (active) as edge.
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+4 Magic internal units = 1 Lambda
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 132: section contact:
+	Contact types polycontact and pm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 133: section contact:
+	Contact types pdcontact and pdm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 134: section contact:
+	Contact types psubstratepcontact and psm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 135: section contact:
+	Contact types ndcontact and ndm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 136: section contact:
+	Contact types nsubstratencontact and nsm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 137: section contact:
+	Contact types nwsc and nwsm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 138: section contact:
+	Contact types m2contact and m123contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 139: section contact:
+	Contact types m3contact and m234contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 413: section cifoutput:
+	Unrecognized layer (type) "pdm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 414: section cifoutput:
+	Unrecognized layer (type) "nsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 455: section cifoutput:
+	Unrecognized layer (type) "ndm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 456: section cifoutput:
+	Unrecognized layer (type) "psm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 478: section cifoutput:
+	Unrecognized layer (type) "ndm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 478: section cifoutput:
+	Unrecognized layer (type) "psm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 483: section cifoutput:
+	Unrecognized layer (type) "pdm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 483: section cifoutput:
+	Unrecognized layer (type) "nsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 488: section cifoutput:
+	Unrecognized layer (type) "pdm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 488: section cifoutput:
+	Unrecognized layer (type) "psm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 488: section cifoutput:
+	Unrecognized layer (type) "ndm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 488: section cifoutput:
+	Unrecognized layer (type) "nsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 500: section cifoutput:
+	Unrecognized layer (type) "ndm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 500: section cifoutput:
+	Unrecognized layer (type) "nsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 500: section cifoutput:
+	Unrecognized layer (type) "nwsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 500: section cifoutput:
+	Unrecognized layer (type) "pdm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 500: section cifoutput:
+	Unrecognized layer (type) "psm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 518: section cifoutput:
+	Unrecognized layer (type) "ndm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 518: section cifoutput:
+	Unrecognized layer (type) "nsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 518: section cifoutput:
+	Unrecognized layer (type) "nwsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 518: section cifoutput:
+	Unrecognized layer (type) "pdm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 518: section cifoutput:
+	Unrecognized layer (type) "psm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 534: section cifoutput:
+	Unrecognized layer (type) "pm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 546: section cifoutput:
+	Unrecognized layer (type) "m123c/m1".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 554: section cifoutput:
+	Unrecognized layer (type) "m234c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 604: section cifoutput:
+	Unrecognized layer (type) "m123c/m1".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "pdm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "ndm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "psm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "nsm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "pm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "nwsm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "m234c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "m234c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 679: section cifoutput:
+	Unrecognized layer (type) "m123c/m3".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 687: section cifoutput:
+	Unrecognized layer (type) "m234c/m4".
+Input style lambda=0.20(p): scaleFactor=20, multiplier=1
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 9261: section drc:
+	OK types "space" in more than one plane.
+	Assuming same plane (active) as edge.
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Scaled tech values by 4 / 1 to match internal grid scaling
+Grid scaling is finer than limit set by the process!
+Loading "migrate_PPA_adder.tcl" from command line.
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )
+
+microns:    0.00 x 0.00    (  0.00,  0.00 ), (  0.00,  0.00 )
+lambda:     0.00 x 0.00    (  0.00,  0.00 ), (  0.00,  0.00 )
+internal:      0 x 0       (     0,  0    ), (     0,  0    )
+Reading LEF data from file /usr/local/share/qflow/tech/osu035/osu035_stdcells.lef.
+This action cannot be undone.
+LEF read, Line 16 (Message): Unknown keyword "OBS" in LEF file; ignoring.
+LEF read, Line 17 (Message): Unknown keyword "PIN" in LEF file; ignoring.
+LEF read, Line 207 (Message): Defines site corner (ignored)
+LEF read, Line 213 (Message): Defines site IO (ignored)
+LEF read, Line 219 (Message): Defines site core (ignored)
+Moving label "CLK" from metal1 to m2contact in cell DFFNEGX1.
+Moving label "CLK" from metal1 to m2contact in cell DFFNEGX1.
+Moving label "A" from metal1 to m2contact in cell XNOR2X1.
+LEF read: Processed 3179 lines.
+Reading DEF data from file PPA_adder.def.
+This action cannot be undone.
+  Processed 3 vias total.
+  Processed 102 subcell instances total.
+  Processed 22 pins total.
+  Processed 88 nets total.
+DEF read, Line 945 (Warning): Number of nets read (9) does not match the number declared (11).
+DEF read: Processed 946 lines.
+DEF Read: encountered 1 warning total.
+Generating LEF output PPA_adder.lef for cell PPA_adder:
+Diagnostic:  Write LEF header for cell PPA_adder
+Diagnostic:  Writing LEF output for cell PPA_adder
+Diagnostic:  Scale value is 0.050000
+Extracting INVX1 into INVX1.ext:
+Completed 100%
+Extracting NAND2X1 into NAND2X1.ext:
+Completed 100%
+Extracting BUFX2 into BUFX2.ext:
+Completed 100%
+Extracting FILL into FILL.ext:
+Completed 100%
+Extracting AND2X2 into AND2X2.ext:
+Completed 100%
+Extracting NOR2X1 into NOR2X1.ext:
+Completed 100%
+Extracting PPA_adder into PPA_adder.ext:
+Completed 7%
+Completed 13%
+Completed 20%
+Completed 27%
+Completed 33%
+Completed 40%
+Completed 47%
+Completed 53%
+Completed 60%
+Completed 67%
+Completed 73%
+Completed 80%
+Completed 87%
+Completed 93%
+Completed 100%
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+exttospice finished.
+Migration script ended on pon, 15 cze 2020, 18:55:51 CEST

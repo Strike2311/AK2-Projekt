@@ -1,0 +1,417 @@
+Qflow DRC logfile created on pon, 15 cze 2020, 18:56:25 CEST
+magic -dnull -noconsole  /home/artur/proj/layout/run_drc_PPA_adder.tcl
+
+Magic 8.2 revision 172 - Compiled on czw, 11 cze 2020, 18:41:08 CEST.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 132: section contact:
+	Contact types polycontact and pm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 133: section contact:
+	Contact types pdcontact and pdm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 134: section contact:
+	Contact types psubstratepcontact and psm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 135: section contact:
+	Contact types ndcontact and ndm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 136: section contact:
+	Contact types nsubstratencontact and nsm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 137: section contact:
+	Contact types nwsc and nwsm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 138: section contact:
+	Contact types m2contact and m123contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 139: section contact:
+	Contact types m3contact and m234contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 413: section cifoutput:
+	Unrecognized layer (type) "pdm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 414: section cifoutput:
+	Unrecognized layer (type) "nsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 455: section cifoutput:
+	Unrecognized layer (type) "ndm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 456: section cifoutput:
+	Unrecognized layer (type) "psm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 478: section cifoutput:
+	Unrecognized layer (type) "ndm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 478: section cifoutput:
+	Unrecognized layer (type) "psm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 483: section cifoutput:
+	Unrecognized layer (type) "pdm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 483: section cifoutput:
+	Unrecognized layer (type) "nsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 488: section cifoutput:
+	Unrecognized layer (type) "pdm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 488: section cifoutput:
+	Unrecognized layer (type) "psm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 488: section cifoutput:
+	Unrecognized layer (type) "ndm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 488: section cifoutput:
+	Unrecognized layer (type) "nsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 500: section cifoutput:
+	Unrecognized layer (type) "ndm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 500: section cifoutput:
+	Unrecognized layer (type) "nsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 500: section cifoutput:
+	Unrecognized layer (type) "nwsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 500: section cifoutput:
+	Unrecognized layer (type) "pdm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 500: section cifoutput:
+	Unrecognized layer (type) "psm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 518: section cifoutput:
+	Unrecognized layer (type) "ndm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 518: section cifoutput:
+	Unrecognized layer (type) "nsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 518: section cifoutput:
+	Unrecognized layer (type) "nwsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 518: section cifoutput:
+	Unrecognized layer (type) "pdm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 518: section cifoutput:
+	Unrecognized layer (type) "psm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 534: section cifoutput:
+	Unrecognized layer (type) "pm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 546: section cifoutput:
+	Unrecognized layer (type) "m123c/m1".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 554: section cifoutput:
+	Unrecognized layer (type) "m234c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 604: section cifoutput:
+	Unrecognized layer (type) "m123c/m1".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "pdm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "ndm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "psm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "nsm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "pm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "nwsm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "m234c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "m234c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 679: section cifoutput:
+	Unrecognized layer (type) "m123c/m3".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 687: section cifoutput:
+	Unrecognized layer (type) "m234c/m4".
+Input style lambda=0.20(p): scaleFactor=20, multiplier=1
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 9261: section drc:
+	OK types "space" in more than one plane.
+	Assuming same plane (active) as edge.
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+4 Magic internal units = 1 Lambda
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 132: section contact:
+	Contact types polycontact and pm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 133: section contact:
+	Contact types pdcontact and pdm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 134: section contact:
+	Contact types psubstratepcontact and psm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 135: section contact:
+	Contact types ndcontact and ndm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 136: section contact:
+	Contact types nsubstratencontact and nsm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 137: section contact:
+	Contact types nwsc and nwsm12contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 138: section contact:
+	Contact types m2contact and m123contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 139: section contact:
+	Contact types m3contact and m234contact do not stack
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 413: section cifoutput:
+	Unrecognized layer (type) "pdm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 414: section cifoutput:
+	Unrecognized layer (type) "nsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 455: section cifoutput:
+	Unrecognized layer (type) "ndm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 456: section cifoutput:
+	Unrecognized layer (type) "psm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 478: section cifoutput:
+	Unrecognized layer (type) "ndm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 478: section cifoutput:
+	Unrecognized layer (type) "psm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 483: section cifoutput:
+	Unrecognized layer (type) "pdm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 483: section cifoutput:
+	Unrecognized layer (type) "nsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 488: section cifoutput:
+	Unrecognized layer (type) "pdm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 488: section cifoutput:
+	Unrecognized layer (type) "psm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 488: section cifoutput:
+	Unrecognized layer (type) "ndm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 488: section cifoutput:
+	Unrecognized layer (type) "nsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 500: section cifoutput:
+	Unrecognized layer (type) "ndm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 500: section cifoutput:
+	Unrecognized layer (type) "nsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 500: section cifoutput:
+	Unrecognized layer (type) "nwsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 500: section cifoutput:
+	Unrecognized layer (type) "pdm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 500: section cifoutput:
+	Unrecognized layer (type) "psm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 518: section cifoutput:
+	Unrecognized layer (type) "ndm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 518: section cifoutput:
+	Unrecognized layer (type) "nsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 518: section cifoutput:
+	Unrecognized layer (type) "nwsm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 518: section cifoutput:
+	Unrecognized layer (type) "pdm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 518: section cifoutput:
+	Unrecognized layer (type) "psm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 534: section cifoutput:
+	Unrecognized layer (type) "pm12c/a".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 546: section cifoutput:
+	Unrecognized layer (type) "m123c/m1".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 554: section cifoutput:
+	Unrecognized layer (type) "m234c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 604: section cifoutput:
+	Unrecognized layer (type) "m123c/m1".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "pdm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "ndm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "psm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "nsm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "pm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "nwsm12c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "m234c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 608: section cifoutput:
+	Unrecognized layer (type) "m234c/m2".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 679: section cifoutput:
+	Unrecognized layer (type) "m123c/m3".
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 687: section cifoutput:
+	Unrecognized layer (type) "m234c/m4".
+Input style lambda=0.20(p): scaleFactor=20, multiplier=1
+/usr/share/qflow/tech/osu035/SCN4M_SUBM.20.tech: line 9261: section drc:
+	OK types "space" in more than one plane.
+	Assuming same plane (active) as edge.
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Scaled tech values by 4 / 1 to match internal grid scaling
+Grid scaling is finer than limit set by the process!
+Loading "/home/artur/proj/layout/run_drc_PPA_adder.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: iit_stdcells
+Reading "FILL".
+Moving label "vdd" from space to metal1 in cell FILL.
+Moving label "gnd" from space to metal1 in cell FILL.
+Reading "AND2X1".
+Moving label "Y" from space to metal1 in cell AND2X1.
+Moving label "B" from space to metal1 in cell AND2X1.
+Moving label "vdd" from space to metal1 in cell AND2X1.
+Moving label "gnd" from space to metal1 in cell AND2X1.
+Moving label "A" from space to metal1 in cell AND2X1.
+Reading "AND2X2".
+Moving label "vdd" from space to metal1 in cell AND2X2.
+Moving label "gnd" from space to metal1 in cell AND2X2.
+Moving label "A" from space to metal1 in cell AND2X2.
+Moving label "B" from space to metal1 in cell AND2X2.
+Moving label "Y" from space to metal1 in cell AND2X2.
+Reading "AOI21X1".
+Moving label "gnd" from space to metal1 in cell AOI21X1.
+Moving label "vdd" from space to metal1 in cell AOI21X1.
+Moving label "A" from space to metal1 in cell AOI21X1.
+Moving label "B" from space to metal1 in cell AOI21X1.
+Moving label "Y" from space to metal1 in cell AOI21X1.
+Moving label "C" from space to metal1 in cell AOI21X1.
+Reading "AOI22X1".
+Moving label "gnd" from space to metal1 in cell AOI22X1.
+Moving label "vdd" from space to metal1 in cell AOI22X1.
+Moving label "C" from space to metal1 in cell AOI22X1.
+Moving label "D" from space to metal1 in cell AOI22X1.
+Moving label "Y" from space to metal1 in cell AOI22X1.
+Moving label "A" from space to metal1 in cell AOI22X1.
+Moving label "B" from space to metal1 in cell AOI22X1.
+Reading "BUFX2".
+Moving label "vdd" from space to metal1 in cell BUFX2.
+Moving label "gnd" from space to metal1 in cell BUFX2.
+Moving label "A" from space to metal1 in cell BUFX2.
+Moving label "Y" from space to metal1 in cell BUFX2.
+Reading "BUFX4".
+Moving label "vdd" from space to metal1 in cell BUFX4.
+Moving label "gnd" from space to metal1 in cell BUFX4.
+Moving label "A" from space to metal1 in cell BUFX4.
+Moving label "Y" from space to metal1 in cell BUFX4.
+Reading "DFFNEGX1".
+Moving label "CLK" from space to metal1 in cell DFFNEGX1.
+Moving label "vdd" from space to metal1 in cell DFFNEGX1.
+Moving label "D" from space to metal1 in cell DFFNEGX1.
+Moving label "gnd" from space to metal1 in cell DFFNEGX1.
+Moving label "Q" from space to metal1 in cell DFFNEGX1.
+Reading "NOR3X1".
+Moving label "vdd" from space to metal1 in cell NOR3X1.
+Moving label "gnd" from space to metal1 in cell NOR3X1.
+Moving label "B" from space to metal1 in cell NOR3X1.
+Moving label "C" from space to metal1 in cell NOR3X1.
+Moving label "A" from space to metal1 in cell NOR3X1.
+Moving label "Y" from space to metal1 in cell NOR3X1.
+Reading "DFFPOSX1".
+Moving label "vdd" from space to metal1 in cell DFFPOSX1.
+Moving label "D" from space to metal1 in cell DFFPOSX1.
+Moving label "gnd" from space to metal1 in cell DFFPOSX1.
+Moving label "Q" from space to metal1 in cell DFFPOSX1.
+Moving label "CLK" from space to metal1 in cell DFFPOSX1.
+Reading "FAX1".
+Moving label "gnd" from space to metal1 in cell FAX1.
+Moving label "vdd" from space to metal1 in cell FAX1.
+Moving label "A" from space to metal1 in cell FAX1.
+Moving label "B" from space to metal1 in cell FAX1.
+Moving label "C" from space to metal1 in cell FAX1.
+Moving label "YC" from space to metal1 in cell FAX1.
+Moving label "YS" from space to metal1 in cell FAX1.
+Reading "HAX1".
+Moving label "vdd" from space to metal1 in cell HAX1.
+Moving label "gnd" from space to metal1 in cell HAX1.
+Moving label "YC" from space to metal1 in cell HAX1.
+Moving label "A" from space to metal1 in cell HAX1.
+Moving label "B" from space to metal1 in cell HAX1.
+Moving label "YS" from space to metal1 in cell HAX1.
+Reading "INVX1".
+Moving label "A" from space to metal1 in cell INVX1.
+Moving label "Y" from space to metal1 in cell INVX1.
+Moving label "vdd" from space to metal1 in cell INVX1.
+Moving label "gnd" from space to metal1 in cell INVX1.
+Reading "INVX2".
+Moving label "vdd" from space to metal1 in cell INVX2.
+Moving label "gnd" from space to metal1 in cell INVX2.
+Moving label "Y" from space to metal1 in cell INVX2.
+Moving label "A" from space to metal1 in cell INVX2.
+Reading "INVX4".
+Moving label "vdd" from space to metal1 in cell INVX4.
+Moving label "gnd" from space to metal1 in cell INVX4.
+Moving label "Y" from space to metal1 in cell INVX4.
+Moving label "A" from space to metal1 in cell INVX4.
+Reading "INVX8".
+Moving label "vdd" from space to metal1 in cell INVX8.
+Moving label "gnd" from space to metal1 in cell INVX8.
+Moving label "A" from space to metal1 in cell INVX8.
+Moving label "Y" from space to metal1 in cell INVX8.
+Reading "NAND2X1".
+Moving label "vdd" from space to metal1 in cell NAND2X1.
+Moving label "Y" from space to metal1 in cell NAND2X1.
+Moving label "gnd" from space to metal1 in cell NAND2X1.
+Moving label "A" from space to metal1 in cell NAND2X1.
+Moving label "B" from space to metal1 in cell NAND2X1.
+Reading "NAND3X1".
+Moving label "B" from space to metal1 in cell NAND3X1.
+Moving label "vdd" from space to metal1 in cell NAND3X1.
+Moving label "gnd" from space to metal1 in cell NAND3X1.
+Moving label "A" from space to metal1 in cell NAND3X1.
+Moving label "C" from space to metal1 in cell NAND3X1.
+Moving label "Y" from space to metal1 in cell NAND3X1.
+Reading "NOR2X1".
+Moving label "vdd" from space to metal1 in cell NOR2X1.
+Moving label "B" from space to metal1 in cell NOR2X1.
+Moving label "gnd" from space to metal1 in cell NOR2X1.
+Moving label "Y" from space to metal1 in cell NOR2X1.
+Moving label "A" from space to metal1 in cell NOR2X1.
+Reading "OAI21X1".
+Moving label "gnd" from space to metal1 in cell OAI21X1.
+Moving label "vdd" from space to metal1 in cell OAI21X1.
+Moving label "A" from space to metal1 in cell OAI21X1.
+Moving label "B" from space to metal1 in cell OAI21X1.
+Moving label "Y" from space to metal1 in cell OAI21X1.
+Moving label "C" from space to metal1 in cell OAI21X1.
+Reading "OAI22X1".
+Moving label "gnd" from space to metal1 in cell OAI22X1.
+Moving label "vdd" from space to metal1 in cell OAI22X1.
+Moving label "D" from space to metal1 in cell OAI22X1.
+Moving label "C" from space to metal1 in cell OAI22X1.
+Moving label "A" from space to metal1 in cell OAI22X1.
+Moving label "B" from space to metal1 in cell OAI22X1.
+Moving label "Y" from space to metal1 in cell OAI22X1.
+Reading "OR2X1".
+Moving label "Y" from space to metal1 in cell OR2X1.
+Moving label "B" from space to metal1 in cell OR2X1.
+Moving label "vdd" from space to metal1 in cell OR2X1.
+Moving label "gnd" from space to metal1 in cell OR2X1.
+Moving label "A" from space to metal1 in cell OR2X1.
+Reading "OR2X2".
+Moving label "Y" from space to metal1 in cell OR2X2.
+Moving label "B" from space to metal1 in cell OR2X2.
+Moving label "vdd" from space to metal1 in cell OR2X2.
+Moving label "gnd" from space to metal1 in cell OR2X2.
+Moving label "A" from space to metal1 in cell OR2X2.
+Reading "TBUFX1".
+Moving label "vdd" from space to metal1 in cell TBUFX1.
+Moving label "gnd" from space to metal1 in cell TBUFX1.
+Moving label "EN" from space to metal1 in cell TBUFX1.
+Moving label "A" from space to metal1 in cell TBUFX1.
+Moving label "Y" from space to metal1 in cell TBUFX1.
+Reading "TBUFX2".
+Moving label "vdd" from space to metal1 in cell TBUFX2.
+Moving label "gnd" from space to metal1 in cell TBUFX2.
+Moving label "A" from space to metal1 in cell TBUFX2.
+Moving label "EN" from space to metal1 in cell TBUFX2.
+Moving label "Y" from space to metal1 in cell TBUFX2.
+Reading "XOR2X1".
+Moving label "Y" from space to metal1 in cell XOR2X1.
+Moving label "vdd" from space to metal1 in cell XOR2X1.
+Moving label "B" from space to metal1 in cell XOR2X1.
+Moving label "A" from space to metal1 in cell XOR2X1.
+Moving label "gnd" from space to metal1 in cell XOR2X1.
+Reading "MUX2X1".
+Moving label "S" from space to metal1 in cell MUX2X1.
+Moving label "vdd" from space to metal1 in cell MUX2X1.
+Moving label "gnd" from space to metal1 in cell MUX2X1.
+Moving label "Y" from space to metal1 in cell MUX2X1.
+Moving label "A" from space to metal1 in cell MUX2X1.
+Moving label "B" from space to metal1 in cell MUX2X1.
+Reading "XNOR2X1".
+Moving label "A" from space to metal1 in cell XNOR2X1.
+Moving label "B" from space to metal1 in cell XNOR2X1.
+Moving label "gnd" from space to metal1 in cell XNOR2X1.
+Moving label "vdd" from space to metal1 in cell XNOR2X1.
+Moving label "Y" from space to metal1 in cell XNOR2X1.
+Reading "LATCH".
+Moving label "D" from space to metal1 in cell LATCH.
+Moving label "Q" from space to metal1 in cell LATCH.
+Moving label "gnd" from space to metal1 in cell LATCH.
+Moving label "vdd" from space to metal1 in cell LATCH.
+Moving label "CLK" from space to metal1 in cell LATCH.
+Reading "DFFSR".
+Moving label "gnd" from space to metal1 in cell DFFSR.
+Moving label "vdd" from space to metal1 in cell DFFSR.
+Moving label "D" from space to metal1 in cell DFFSR.
+Moving label "S" from space to metal1 in cell DFFSR.
+Moving label "R" from space to metal1 in cell DFFSR.
+Moving label "Q" from space to metal1 in cell DFFSR.
+Moving label "CLK" from space to metal1 in cell DFFSR.
+Reading "CLKBUF1".
+Moving label "A" from space to metal1 in cell CLKBUF1.
+Moving label "vdd" from space to metal1 in cell CLKBUF1.
+Moving label "gnd" from space to metal1 in cell CLKBUF1.
+Moving label "Y" from space to metal1 in cell CLKBUF1.
+Reading "CLKBUF2".
+Moving label "vdd" from space to metal1 in cell CLKBUF2.
+Moving label "gnd" from space to metal1 in cell CLKBUF2.
+Moving label "A" from space to metal1 in cell CLKBUF2.
+Moving label "Y" from space to metal1 in cell CLKBUF2.
+Reading "CLKBUF3".
+Moving label "gnd" from space to metal1 in cell CLKBUF3.
+Moving label "vdd" from space to metal1 in cell CLKBUF3.
+Moving label "A" from space to metal1 in cell CLKBUF3.
+Moving label "Y" from space to metal1 in cell CLKBUF3.
+Reading "iit_stdcells".
+File <PPA_adder.mag> is already locked by pid 5059.  Opening read-only.
+Scaled magic input cell PPA_adder geometry by factor of 2
+Processing timestamp mismatches: BUFX2, NOR2X1, AND2X2, INVX1, FILL, NAND2X1.
+drc = 0
+DRC checking script ended on pon, 15 cze 2020, 18:56:26 CEST

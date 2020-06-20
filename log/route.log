@@ -1,0 +1,536 @@
+Qflow route logfile created on pon, 15 cze 2020, 18:54:44 CEST
+qrouter -noc  -s PPA_adder.cfg
+Qrouter detail maze router version 1.4.59.T
+Reading LEF data from file /usr/local/share/qflow/tech/osu035/osu035_stdcells.lef.
+LEF Read, Line 135: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 136: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 140: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 141: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 151: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 152: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 156: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 157: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 167: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 168: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 172: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 173: NOTE:  Old format VIARULE ignored.
+LEF file:  Defines site corner (ignored)
+LEF file:  Defines site IO (ignored)
+LEF file:  Defines site core (ignored)
+LEF read: Processed 3179 lines.
+LEF Read: encountered 0 errors and 12 warnings total.
+Vertical route layer at non-minimum pitch 3.2.  Using smaller pitch 1.6, will route on 1-of-2 tracks for layer metal4.
+Reading DEF data from file PPA_adder.def.
+Diagnostic: Design name: "PPA_adder"
+  Processed 3 vias total.
+  Processed 102 subcell instances total.
+  Processed 22 pins total.
+  Processed 88 nets total (0 fixed).
+  Processed 2 special nets total (4 fixed).
+DEF read: Processed 557 lines.
+Output scale = microns / 100, precision 1
+No antenna cell defined!
+There are 90 nets in this design.
+*** Running stage1 routing with defaults
+Finished routing net S4.c
+Nets remaining: 89
+Finished routing net S2.c
+Nets remaining: 88
+Finished routing net g4
+Nets remaining: 87
+Finished routing net c_in
+Nets remaining: 86
+Finished routing net Carry_in.g0_new
+Nets remaining: 85
+Finished routing net g2
+Nets remaining: 84
+Finished routing net gen4.p
+Nets remaining: 83
+Finished routing net S5.c
+Nets remaining: 82
+Finished routing net g5
+Nets remaining: 81
+Finished routing net gen5.p
+Nets remaining: 80
+Finished routing net Carry_in.g0
+Nets remaining: 79
+Finished routing net S0.h
+Nets remaining: 78
+Finished routing net S1.h
+Nets remaining: 77
+Finished routing net S2.h
+Nets remaining: 76
+Finished routing net S3.c
+Nets remaining: 75
+Finished routing net S3.h
+Nets remaining: 74
+Finished routing net S4.h
+Nets remaining: 73
+Finished routing net S5.h
+Nets remaining: 72
+Finished routing net sum_comp_2[0]
+Nets remaining: 71
+Finished routing net sum_comp_1[0]
+Nets remaining: 70
+Finished routing net _15_
+Nets remaining: 69
+Finished routing net sum_comp_2[1]
+Nets remaining: 68
+Finished routing net sum_comp_1[1]
+Nets remaining: 67
+Finished routing net g1
+Nets remaining: 66
+Finished routing net _16_
+Nets remaining: 65
+Finished routing net sum_comp_2[2]
+Nets remaining: 64
+Finished routing net sum_comp_1[2]
+Nets remaining: 63
+Finished routing net _17_
+Nets remaining: 62
+Finished routing net gen2.p
+Nets remaining: 61
+Finished routing net sum_comp_2[3]
+Nets remaining: 60
+Finished routing net sum_comp_1[3]
+Nets remaining: 59
+Finished routing net g3
+Nets remaining: 58
+Finished routing net _18_
+Nets remaining: 57
+Finished routing net gen3.p
+Nets remaining: 56
+Finished routing net sum_comp_2[4]
+Nets remaining: 55
+Finished routing net sum_comp_1[4]
+Nets remaining: 54
+Finished routing net _19_
+Nets remaining: 53
+Finished routing net sum_comp_2[5]
+Nets remaining: 52
+Finished routing net sum_comp_1[5]
+Nets remaining: 51
+Finished routing net _20_
+Nets remaining: 50
+Finished routing net _29_
+Nets remaining: 49
+Finished routing net _30_
+Nets remaining: 48
+Finished routing net g_5_4
+Nets remaining: 47
+Finished routing net _31_
+Nets remaining: 46
+Finished routing net mod_5_0.p1
+Nets remaining: 45
+Finished routing net _32_
+Nets remaining: 44
+Finished routing net _0_
+Nets remaining: 43
+Finished routing net _33_
+Nets remaining: 42
+Finished routing net _34_
+Nets remaining: 41
+Finished routing net S1.s
+Nets remaining: 40
+Finished routing net result[1]
+Nets remaining: 39
+Finished routing net S2.s
+Nets remaining: 38
+Finished routing net result[2]
+Nets remaining: 37
+Finished routing net S3.s
+Nets remaining: 36
+Finished routing net result[3]
+Nets remaining: 35
+Finished routing net S4.s
+Nets remaining: 34
+Finished routing net result[4]
+Nets remaining: 33
+Finished routing net S5.s
+Nets remaining: 32
+Finished routing net result[5]
+Nets remaining: 31
+Finished routing net c_out
+Nets remaining: 30
+Finished routing net S0.s
+Nets remaining: 29
+Finished routing net result[0]
+Nets remaining: 28
+Finished routing net _1_
+Nets remaining: 27
+Finished routing net Carry_in.p0
+Nets remaining: 26
+Finished routing net _2_
+Nets remaining: 25
+Finished routing net _3_
+Nets remaining: 24
+Finished routing net _4_
+Nets remaining: 23
+Finished routing net _5_
+Nets remaining: 22
+Finished routing net _6_
+Nets remaining: 21
+Finished routing net _7_
+Nets remaining: 20
+Finished routing net _8_
+Nets remaining: 19
+Finished routing net _9_
+Nets remaining: 18
+Finished routing net _10_
+Nets remaining: 17
+Finished routing net _11_
+Nets remaining: 16
+Finished routing net _12_
+Nets remaining: 15
+Finished routing net _13_
+Nets remaining: 14
+Finished routing net _14_
+Nets remaining: 13
+Finished routing net gen1.p
+Nets remaining: 12
+Finished routing net _21_
+Nets remaining: 11
+Finished routing net _22_
+Nets remaining: 10
+Finished routing net _23_
+Nets remaining: 9
+Finished routing net _24_
+Nets remaining: 8
+Finished routing net g_3_2
+Nets remaining: 7
+Finished routing net _25_
+Nets remaining: 6
+Finished routing net mod_3_0.p1
+Nets remaining: 5
+Finished routing net _26_
+Nets remaining: 4
+Finished routing net _27_
+Nets remaining: 3
+Finished routing net _28_
+Nets remaining: 2
+
+----------------------------------------------
+Progress: Stage 1 total routes completed: 136
+No failed routes!
+----------------------------------------------
+*** Running stage3 routing with defaults, 1st round
+Finished routing net S4.c
+Nets remaining: 89
+Finished routing net S2.c
+Nets remaining: 88
+Finished routing net g4
+Nets remaining: 87
+Finished routing net c_in
+Nets remaining: 86
+Finished routing net Carry_in.g0_new
+Nets remaining: 85
+Finished routing net g2
+Nets remaining: 84
+Finished routing net gen4.p
+Nets remaining: 83
+Finished routing net S5.c
+Nets remaining: 82
+Finished routing net g5
+Nets remaining: 81
+Finished routing net gen5.p
+Nets remaining: 80
+Finished routing net Carry_in.g0
+Nets remaining: 79
+Finished routing net S0.h
+Nets remaining: 78
+Finished routing net S1.h
+Nets remaining: 77
+Finished routing net S2.h
+Nets remaining: 76
+Finished routing net S3.c
+Nets remaining: 75
+Finished routing net S3.h
+Nets remaining: 74
+Finished routing net S4.h
+Nets remaining: 73
+Finished routing net S5.h
+Nets remaining: 72
+Finished routing net sum_comp_2[0]
+Nets remaining: 71
+Finished routing net sum_comp_1[0]
+Nets remaining: 70
+Finished routing net _15_
+Nets remaining: 69
+Finished routing net sum_comp_2[1]
+Nets remaining: 68
+Keeping route for net sum_comp_1[1]
+Finished routing net g1
+Nets remaining: 66
+Finished routing net _16_
+Nets remaining: 65
+Keeping route for net sum_comp_2[2]
+Keeping route for net sum_comp_1[2]
+Finished routing net _17_
+Nets remaining: 62
+Finished routing net gen2.p
+Nets remaining: 61
+Keeping route for net sum_comp_2[3]
+Finished routing net sum_comp_1[3]
+Nets remaining: 59
+Finished routing net g3
+Nets remaining: 58
+Finished routing net _18_
+Nets remaining: 57
+Finished routing net gen3.p
+Nets remaining: 56
+Keeping route for net sum_comp_2[4]
+Finished routing net sum_comp_1[4]
+Nets remaining: 54
+Finished routing net _19_
+Nets remaining: 53
+Finished routing net sum_comp_2[5]
+Nets remaining: 52
+Finished routing net sum_comp_1[5]
+Nets remaining: 51
+Finished routing net _20_
+Nets remaining: 50
+Keeping route for net _29_
+Finished routing net _30_
+Nets remaining: 48
+Keeping route for net g_5_4
+Finished routing net _31_
+Nets remaining: 46
+Keeping route for net mod_5_0.p1
+Finished routing net _32_
+Nets remaining: 44
+Keeping route for net _0_
+Finished routing net _33_
+Nets remaining: 42
+Keeping route for net _34_
+Finished routing net S1.s
+Nets remaining: 40
+Finished routing net result[1]
+Nets remaining: 39
+Keeping route for net S2.s
+Keeping route for net result[2]
+Keeping route for net S3.s
+Finished routing net result[3]
+Nets remaining: 35
+Keeping route for net S4.s
+Keeping route for net result[4]
+Keeping route for net S5.s
+Finished routing net result[5]
+Nets remaining: 31
+Finished routing net c_out
+Nets remaining: 30
+Finished routing net S0.s
+Nets remaining: 29
+Keeping route for net result[0]
+Keeping route for net _1_
+Keeping route for net Carry_in.p0
+Finished routing net _2_
+Nets remaining: 25
+Finished routing net _3_
+Nets remaining: 24
+Finished routing net _4_
+Nets remaining: 23
+Finished routing net _5_
+Nets remaining: 22
+Finished routing net _6_
+Nets remaining: 21
+Finished routing net _7_
+Nets remaining: 20
+Finished routing net _8_
+Nets remaining: 19
+Finished routing net _9_
+Nets remaining: 18
+Finished routing net _10_
+Nets remaining: 17
+Finished routing net _11_
+Nets remaining: 16
+Keeping route for net _12_
+Finished routing net _13_
+Nets remaining: 14
+Keeping route for net _14_
+Finished routing net gen1.p
+Nets remaining: 12
+Keeping route for net _21_
+Finished routing net _22_
+Nets remaining: 10
+Keeping route for net _23_
+Keeping route for net _24_
+Keeping route for net g_3_2
+Keeping route for net _25_
+Keeping route for net mod_3_0.p1
+Finished routing net _26_
+Nets remaining: 4
+Keeping route for net _27_
+Finished routing net _28_
+Nets remaining: 2
+
+----------------------------------------------
+Progress: Stage 3 total routes completed: 239
+No failed routes!
+----------------------------------------------
+*** Running stage3 routing with defaults, 2nd round
+Finished routing net S4.c
+Nets remaining: 89
+Finished routing net S2.c
+Nets remaining: 88
+Finished routing net g4
+Nets remaining: 87
+Finished routing net c_in
+Nets remaining: 86
+Finished routing net Carry_in.g0_new
+Nets remaining: 85
+Finished routing net g2
+Nets remaining: 84
+Finished routing net gen4.p
+Nets remaining: 83
+Finished routing net S5.c
+Nets remaining: 82
+Finished routing net g5
+Nets remaining: 81
+Finished routing net gen5.p
+Nets remaining: 80
+Finished routing net Carry_in.g0
+Nets remaining: 79
+Finished routing net S0.h
+Nets remaining: 78
+Finished routing net S1.h
+Nets remaining: 77
+Finished routing net S2.h
+Nets remaining: 76
+Finished routing net S3.c
+Nets remaining: 75
+Finished routing net S3.h
+Nets remaining: 74
+Finished routing net S4.h
+Nets remaining: 73
+Finished routing net S5.h
+Nets remaining: 72
+Finished routing net sum_comp_2[0]
+Nets remaining: 71
+Finished routing net sum_comp_1[0]
+Nets remaining: 70
+Finished routing net _15_
+Nets remaining: 69
+Finished routing net sum_comp_2[1]
+Nets remaining: 68
+Keeping route for net sum_comp_1[1]
+Finished routing net g1
+Nets remaining: 66
+Finished routing net _16_
+Nets remaining: 65
+Keeping route for net sum_comp_2[2]
+Keeping route for net sum_comp_1[2]
+Finished routing net _17_
+Nets remaining: 62
+Finished routing net gen2.p
+Nets remaining: 61
+Keeping route for net sum_comp_2[3]
+Finished routing net sum_comp_1[3]
+Nets remaining: 59
+Finished routing net g3
+Nets remaining: 58
+Finished routing net _18_
+Nets remaining: 57
+Finished routing net gen3.p
+Nets remaining: 56
+Keeping route for net sum_comp_2[4]
+Finished routing net sum_comp_1[4]
+Nets remaining: 54
+Finished routing net _19_
+Nets remaining: 53
+Finished routing net sum_comp_2[5]
+Nets remaining: 52
+Finished routing net sum_comp_1[5]
+Nets remaining: 51
+Finished routing net _20_
+Nets remaining: 50
+Keeping route for net _29_
+Finished routing net _30_
+Nets remaining: 48
+Keeping route for net g_5_4
+Finished routing net _31_
+Nets remaining: 46
+Keeping route for net mod_5_0.p1
+Finished routing net _32_
+Nets remaining: 44
+Keeping route for net _0_
+Finished routing net _33_
+Nets remaining: 42
+Keeping route for net _34_
+Finished routing net S1.s
+Nets remaining: 40
+Finished routing net result[1]
+Nets remaining: 39
+Keeping route for net S2.s
+Keeping route for net result[2]
+Keeping route for net S3.s
+Finished routing net result[3]
+Nets remaining: 35
+Keeping route for net S4.s
+Keeping route for net result[4]
+Keeping route for net S5.s
+Finished routing net result[5]
+Nets remaining: 31
+Keeping route for net c_out
+Finished routing net S0.s
+Nets remaining: 29
+Keeping route for net result[0]
+Keeping route for net _1_
+Keeping route for net Carry_in.p0
+Finished routing net _2_
+Nets remaining: 25
+Finished routing net _3_
+Nets remaining: 24
+Finished routing net _4_
+Nets remaining: 23
+Finished routing net _5_
+Nets remaining: 22
+Finished routing net _6_
+Nets remaining: 21
+Finished routing net _7_
+Nets remaining: 20
+Finished routing net _8_
+Nets remaining: 19
+Finished routing net _9_
+Nets remaining: 18
+Finished routing net _10_
+Nets remaining: 17
+Finished routing net _11_
+Nets remaining: 16
+Keeping route for net _12_
+Finished routing net _13_
+Nets remaining: 14
+Keeping route for net _14_
+Finished routing net gen1.p
+Nets remaining: 12
+Keeping route for net _21_
+Finished routing net _22_
+Nets remaining: 10
+Keeping route for net _23_
+Keeping route for net _24_
+Keeping route for net g_3_2
+Keeping route for net _25_
+Keeping route for net mod_3_0.p1
+Finished routing net _26_
+Nets remaining: 4
+Keeping route for net _27_
+Finished routing net _28_
+Nets remaining: 2
+
+----------------------------------------------
+Progress: Stage 3 total routes completed: 341
+No failed routes!
+----------------------------------------------
+*** Writing DEF file PPA_adder_route.def
+emit_routes():  DEF file has 88 nets and 4 specialnets.
+but qrouter wants to write 90 nets and specialnets.
+----------------------------------------------
+Final: No failed routes!
+----------------------------------------------
+*** Writing RC file PPA_adder_route.rc
+Running annotate.tcl antenna.out /home/artur/proj/synthesis/PPA_adder.rtlnopwr.v
+  /home/artur/proj/synthesis/PPA_adder.spc /home/artur/proj/synthesis/PPA_adder.rtlnopwr.anno.v
+  /home/artur/proj/synthesis/PPA_adder.anno.spc  /usr/local/share/qflow/tech/osu035/osu035_stdcells.sp /home/artur/proj/synthesis/PPA_adder_powerground
+Running annotate.tcl
+found cell FILL pinlist vdd gnd
+Done with annotate.tcl
+Router script ended on pon, 15 cze 2020, 18:54:45 CEST

@@ -1,0 +1,128 @@
+* XSpice netlist created from SPICE and liberty sources by spi2xspice.py
+*SPICE netlist created from BLIF module PPA_adder by blif2BSpice
+.subckt PPA_adder a_vdd a_gnd a_sum_comp_1_0_ a_sum_comp_1_1_ a_sum_comp_1_2_ a_sum_comp_1_3_ a_sum_comp_1_4_ a_sum_comp_1_5_ a_sum_comp_2_0_ a_sum_comp_2_1_ a_sum_comp_2_2_ a_sum_comp_2_3_ a_sum_comp_2_4_ a_sum_comp_2_5_ a_c_in a_result_0_ a_result_1_ a_result_2_ a_result_3_ a_result_4_ a_result_5_ a_c_out
+AINVX1_1 [g4] _29_ d_lut_INVX1
+ANAND2X1_1 [S4.c gen4.p] _30_ d_lut_NAND2X1
+ANAND2X1_2 [_29_ _30_] S5.c d_lut_NAND2X1
+AINVX1_2 [g_5_4] _31_ d_lut_INVX1
+ANAND2X1_3 [S4.c mod_5_0.p1] _32_ d_lut_NAND2X1
+ANAND2X1_4 [_31_ _32_] _0_ d_lut_NAND2X1
+AINVX1_3 [g5] _33_ d_lut_INVX1
+ANAND2X1_5 [g4 gen5.p] _34_ d_lut_NAND2X1
+ANAND2X1_6 [_33_ _34_] g_5_4 d_lut_NAND2X1
+AAND2X2_1 [gen5.p gen4.p] mod_5_0.p1 d_lut_AND2X2
+ABUFX2_1 [S1.s] result_1_ d_lut_BUFX2
+ABUFX2_2 [S2.s] result_2_ d_lut_BUFX2
+ABUFX2_3 [S3.s] result_3_ d_lut_BUFX2
+ABUFX2_4 [S4.s] result_4_ d_lut_BUFX2
+ABUFX2_5 [S5.s] result_5_ d_lut_BUFX2
+ABUFX2_6 [_0_] c_out d_lut_BUFX2
+ABUFX2_7 [S0.s] result_0_ d_lut_BUFX2
+AINVX1_4 [Carry_in.g0] _1_ d_lut_INVX1
+ANAND2X1_7 [Carry_in.p0 c_in] _2_ d_lut_NAND2X1
+ANAND2X1_8 [_1_ _2_] Carry_in.g0_new d_lut_NAND2X1
+ANOR2X1_1 [c_in S0.h] _3_ d_lut_NOR2X1
+AAND2X2_2 [c_in S0.h] _4_ d_lut_AND2X2
+ANOR2X1_2 [_3_ _4_] S0.s d_lut_NOR2X1
+ANOR2X1_3 [Carry_in.g0_new S1.h] _5_ d_lut_NOR2X1
+AAND2X2_3 [Carry_in.g0_new S1.h] _6_ d_lut_AND2X2
+ANOR2X1_4 [_5_ _6_] S1.s d_lut_NOR2X1
+ANOR2X1_5 [S2.c S2.h] _7_ d_lut_NOR2X1
+AAND2X2_4 [S2.c S2.h] _8_ d_lut_AND2X2
+ANOR2X1_6 [_7_ _8_] S2.s d_lut_NOR2X1
+ANOR2X1_7 [S3.c S3.h] _9_ d_lut_NOR2X1
+AAND2X2_5 [S3.c S3.h] _10_ d_lut_AND2X2
+ANOR2X1_8 [_9_ _10_] S3.s d_lut_NOR2X1
+ANOR2X1_9 [S4.c S4.h] _11_ d_lut_NOR2X1
+AAND2X2_6 [S4.c S4.h] _12_ d_lut_AND2X2
+ANOR2X1_10 [_11_ _12_] S4.s d_lut_NOR2X1
+ANOR2X1_11 [S5.c S5.h] _13_ d_lut_NOR2X1
+AAND2X2_7 [S5.c S5.h] _14_ d_lut_AND2X2
+ANOR2X1_12 [_13_ _14_] S5.s d_lut_NOR2X1
+AAND2X2_8 [sum_comp_2_0_ sum_comp_1_0_] Carry_in.g0 d_lut_AND2X2
+ANOR2X1_13 [sum_comp_2_0_ sum_comp_1_0_] _15_ d_lut_NOR2X1
+AINVX1_5 [_15_] Carry_in.p0 d_lut_INVX1
+ANOR2X1_14 [_15_ Carry_in.g0] S0.h d_lut_NOR2X1
+AAND2X2_9 [sum_comp_2_1_ sum_comp_1_1_] g1 d_lut_AND2X2
+ANOR2X1_15 [sum_comp_2_1_ sum_comp_1_1_] _16_ d_lut_NOR2X1
+AINVX1_6 [_16_] gen1.p d_lut_INVX1
+ANOR2X1_16 [_16_ g1] S1.h d_lut_NOR2X1
+AAND2X2_10 [sum_comp_2_2_ sum_comp_1_2_] g2 d_lut_AND2X2
+ANOR2X1_17 [sum_comp_2_2_ sum_comp_1_2_] _17_ d_lut_NOR2X1
+AINVX1_7 [_17_] gen2.p d_lut_INVX1
+ANOR2X1_18 [_17_ g2] S2.h d_lut_NOR2X1
+AAND2X2_11 [sum_comp_2_3_ sum_comp_1_3_] g3 d_lut_AND2X2
+ANOR2X1_19 [sum_comp_2_3_ sum_comp_1_3_] _18_ d_lut_NOR2X1
+AINVX1_8 [_18_] gen3.p d_lut_INVX1
+ANOR2X1_20 [_18_ g3] S3.h d_lut_NOR2X1
+AAND2X2_12 [sum_comp_2_4_ sum_comp_1_4_] g4 d_lut_AND2X2
+ANOR2X1_21 [sum_comp_2_4_ sum_comp_1_4_] _19_ d_lut_NOR2X1
+AINVX1_9 [_19_] gen4.p d_lut_INVX1
+ANOR2X1_22 [_19_ g4] S4.h d_lut_NOR2X1
+AAND2X2_13 [sum_comp_2_5_ sum_comp_1_5_] g5 d_lut_AND2X2
+ANOR2X1_23 [sum_comp_2_5_ sum_comp_1_5_] _20_ d_lut_NOR2X1
+AINVX1_10 [_20_] gen5.p d_lut_INVX1
+ANOR2X1_24 [_20_ g5] S5.h d_lut_NOR2X1
+AINVX1_11 [g1] _21_ d_lut_INVX1
+ANAND2X1_9 [Carry_in.g0_new gen1.p] _22_ d_lut_NAND2X1
+ANAND2X1_10 [_21_ _22_] S2.c d_lut_NAND2X1
+AINVX1_12 [g2] _23_ d_lut_INVX1
+ANAND2X1_11 [S2.c gen2.p] _24_ d_lut_NAND2X1
+ANAND2X1_12 [_23_ _24_] S3.c d_lut_NAND2X1
+AINVX1_13 [g_3_2] _25_ d_lut_INVX1
+ANAND2X1_13 [S2.c mod_3_0.p1] _26_ d_lut_NAND2X1
+ANAND2X1_14 [_25_ _26_] S4.c d_lut_NAND2X1
+AINVX1_14 [g3] _27_ d_lut_INVX1
+ANAND2X1_15 [g2 gen3.p] _28_ d_lut_NAND2X1
+ANAND2X1_16 [_27_ _28_] g_3_2 d_lut_NAND2X1
+AAND2X2_14 [gen3.p gen2.p] mod_3_0.p1 d_lut_AND2X2
+
+.model todig_3v3 adc_bridge(in_high=2.1999999999999997 in_low=1.0999999999999999 rise_delay=10n fall_delay=10n)
+.model toana_3v3 dac_bridge(out_high=3.3 out_low=0)
+
+.model ddflop d_dff(ic=0 rise_delay=1n fall_delay=1n)
+.model dzero d_pulldown(load=1p)
+.model done d_pullup(load=1p)
+
+AA2D1 [a_vdd] [vdd] todig_3v3
+AA2D2 [a_gnd] [gnd] todig_3v3
+AA2D3 [a_sum_comp_1_0_] [sum_comp_1_0_] todig_3v3
+AA2D4 [a_sum_comp_1_1_] [sum_comp_1_1_] todig_3v3
+AA2D5 [a_sum_comp_1_2_] [sum_comp_1_2_] todig_3v3
+AA2D6 [a_sum_comp_1_3_] [sum_comp_1_3_] todig_3v3
+AA2D7 [a_sum_comp_1_4_] [sum_comp_1_4_] todig_3v3
+AA2D8 [a_sum_comp_1_5_] [sum_comp_1_5_] todig_3v3
+AA2D9 [a_sum_comp_2_0_] [sum_comp_2_0_] todig_3v3
+AA2D10 [a_sum_comp_2_1_] [sum_comp_2_1_] todig_3v3
+AA2D11 [a_sum_comp_2_2_] [sum_comp_2_2_] todig_3v3
+AA2D12 [a_sum_comp_2_3_] [sum_comp_2_3_] todig_3v3
+AA2D13 [a_sum_comp_2_4_] [sum_comp_2_4_] todig_3v3
+AA2D14 [a_sum_comp_2_5_] [sum_comp_2_5_] todig_3v3
+AA2D15 [a_c_in] [c_in] todig_3v3
+AD2A1 [result_0_] [a_result_0_] toana_3v3
+AD2A2 [result_1_] [a_result_1_] toana_3v3
+AD2A3 [result_2_] [a_result_2_] toana_3v3
+AD2A4 [result_3_] [a_result_3_] toana_3v3
+AD2A5 [result_4_] [a_result_4_] toana_3v3
+AD2A6 [result_5_] [a_result_5_] toana_3v3
+AD2A7 [c_out] [a_c_out] toana_3v3
+
+.ends PPA_adder
+ 
+
+* INVX1 (!A)
+.model d_lut_INVX1 d_lut (rise_delay=1n fall_delay=1n input_load=1p
++ table_values "10")
+* NAND2X1 (!(A B))
+.model d_lut_NAND2X1 d_lut (rise_delay=1n fall_delay=1n input_load=1p
++ table_values "1110")
+* AND2X2 (A B)
+.model d_lut_AND2X2 d_lut (rise_delay=1n fall_delay=1n input_load=1p
++ table_values "0001")
+* BUFX2 A
+.model d_lut_BUFX2 d_lut (rise_delay=1n fall_delay=1n input_load=1p
++ table_values "01")
+* NOR2X1 (!(A+B))
+.model d_lut_NOR2X1 d_lut (rise_delay=1n fall_delay=1n input_load=1p
++ table_values "1000")
+.end
